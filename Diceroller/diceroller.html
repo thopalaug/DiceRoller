@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Dice roller</title>
+	
+		<link rel="stylesheet" href="diceroller.css">
+		
+		<script type="text/javascript"	src="jquery-3.3.1.js"></script>		
+		<script type="text/javascript" 	src="diceroller.js"></script>
+		
+	</head>
+
+		
+	<body>
+	
+		<div id=container>
+		
+			<div id=container-left>
+		
+				<div id=diceRoller-container>
+				
+				
+					<div class=diceType-container>
+							
+						<input id=d4-diceInput class="inputSize left">
+						
+						<p class="left pWidth">d4 +</p>
+						
+						<input id=d4-modifier class="inputSize left">
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d4-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+					
+					<div class=diceType-container>	
+						
+						<input id=d6-diceInput class="inputSize left">
+						
+						<p class="left pWidth">d6 +</p>
+						
+						<input id=d6-modifier class="inputSize left">
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d6-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+					
+					<div class=diceType-container>
+							
+						<input id=d8-diceInput class="inputSize left">
+						
+						<p class="left pWidth">d8 +</p>
+						
+						<input id=d8-modifier class="inputSize left">
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d8-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+					
+					<div class=diceType-container>
+							
+						<input id=d10-diceInput class="inputSize left" type=text>
+						
+						<p class="left pWidth">d10 +</p>
+						
+						<input id=d10-modifier class="inputSize left" type=text>
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d10-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+					
+					<div class=diceType-container>
+							
+						<input id=d12-diceInput class="inputSize left" type=text>
+						
+						<p class="left pWidth">d12 +</p>
+						
+						<input id=d12-modifier class="inputSize left" type=text>
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d12-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+					
+					<div class=diceType-container>
+							
+						<input id=d20-diceInput class="inputSize left" type=text>
+						
+						<p class="left pWidth">d20 +</p>
+						
+						<input id=d20-modifier class="inputSize left" type=text>
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d20-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+
+					
+					<div class=diceType-container>
+							
+						<input id=d100-diceInput class="inputSize left" type=text>
+						
+						<p class="left pWidth">d100 +</p>
+						
+						<input id=d100-modifier class="inputSize left" type=text>
+						
+						<p class="left pWidth">modifier</p>
+						
+						<button id=d100-rollButton class="left rollButton-size">Roll</button>
+					
+					</div>
+					
+
+				</div>
+			
+			
+				<div id=results>
+					The latest roll is always on the top
+					<p id=resultsOutput></p>
+				
+				</div>
+		
+			</div>
+		
+		
+			<div id=container-right>
+			
+				<div id=table>
+				
+				</div>
+			
+			</div>
+		
+		
+		</div>
+		
+		
+		
+	</body>
+
+	
+</html>

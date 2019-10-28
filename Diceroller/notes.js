@@ -1,0 +1,8 @@
+
+
+		var initiative = [
+		
+		{ name: "", initiative:	}
+
+		
+		];

@@ -1,0 +1,109 @@
+
+	#container{
+		
+		height: 400px;
+		width: 600px;
+		border: 1px black solid;
+		margin: 50px auto auto auto;
+		text-align: center;
+		
+	}
+
+	#container-left{
+		
+		height: 400px;
+		width: 300px;
+		float:left;
+		
+	}
+	
+	#container-right{
+		
+		height: 400px;
+		width: 300px;
+		float: right;
+		
+		
+	}
+
+	
+		.inputSize{				/* Denne bestemmer lengen på input feltene */
+				
+			width: 40px;	
+			
+		}
+		
+		.pWidth{				/* Denne bestemmer lengen på teksten */
+			width: 48px;		
+			
+			
+		}
+		
+		.left {					/* Alle elementene langs linja har denne klassen */
+		
+		
+			
+			float: left;
+			margin: 2px 5px 2px 2px;
+			
+			
+		}
+		
+		.rollButton-size{		/* Denne bestemmer lenge og høyde på knappene*/
+			
+			float: right;
+			width: 52px;
+			
+		}
+		
+		.diceType-container{	/* Dette er klassen til containeren for de ulike linjene*/
+			
+			/* display: inline-block; */
+			height: 27px;
+			width: 277px;
+			
+		}
+	
+	
+	
+	#diceRoller-container{
+		
+		margin: 10px;
+		height: 187px;
+		width: 277px;
+		border: 1px black solid;
+		
+	}
+		
+
+	
+	#results{
+		
+		margin: 10px;
+		width: 277px;
+		height: 179px;
+		border: 1px black solid;
+		overflow: auto;
+		color: grey;
+		text-align: left;
+	}
+	
+	#resultsOutput{
+		
+		text-align: left;
+		color: black;
+			
+	}
+	
+	
+	
+	#table{
+		
+		float: right;
+		width: 277px;
+		height: 378px;
+		margin: 10px;
+		background-color: white;
+		border: 1px black solid;
+		
+	}
